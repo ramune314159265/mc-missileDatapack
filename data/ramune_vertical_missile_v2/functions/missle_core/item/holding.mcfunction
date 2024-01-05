@@ -1,1 +1,2 @@
-execute anchored eyes positioned ^ ^ ^5 as @e[distance=..2,type=!#ramune_vertical_missile_v2:stalic_entities,limit=1,sort=nearest] at @s run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:2,effects:[{id:"minecraft:glowing",show_icon:false,show_particles:false,amplifier:0,duration:3}]}
+execute anchored eyes positioned ^ ^ ^4 as @e[distance=2.1..3,type=!#ramune_vertical_missile_v2:stalic_entities,limit=1,sort=nearest,tag=!missle_targeted] run effect clear @s glowing
+execute anchored eyes positioned ^ ^ ^4 as @e[distance=..2,type=!#ramune_vertical_missile_v2:stalic_entities,limit=1,sort=nearest,tag=!missle_targeted] run effect give @s glowing 1 0 true
