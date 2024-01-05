@@ -1,1 +1,1 @@
-execute anchored eyes positioned ^ ^ ^5 as @e[distance=..2,limit=1,sort=nearest] at @s run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:2,effects:[{id:"minecraft:glowing",show_icon:false,show_particles:false,amplifier:0,duration:3}]}
+execute anchored eyes positioned ^ ^ ^5 as @e[distance=..2,type=!#ramune_vertical_missile_v2:stalic_entities,limit=1,sort=nearest] at @s run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:2,effects:[{id:"minecraft:glowing",show_icon:false,show_particles:false,amplifier:0,duration:3}]}
