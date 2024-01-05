@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:31401,display:{Name:'[{"text":"垂直式ミサイル","italic":false,"color":"dark_red"}]',Lore:['[{"text":"垂直に打ち上がるミサイル","italic":false,"color":"white"}]','[{"text":"エンティティの近くでミサイルを設置するとそのエンティティをのせることができる","italic":false,"color":"white"}]']}} 1
