@@ -7,7 +7,6 @@
                 "predicate": {
                     "position": {
                         "y": {
-                            "min": 0,
                             "max": 312
                         }
                     }
@@ -20,7 +19,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:location_check",
-                            "offsetX": -1,
+                            "offsetY": -1,
                             "predicate": {
                                 "block": {
                                     "blocks": [
@@ -34,7 +33,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:location_check",
-                            "offsetX": -2,
+                            "offsetY": -2,
                             "predicate": {
                                 "block": {
                                     "blocks": [
@@ -48,7 +47,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:location_check",
-                            "offsetX": -3,
+                            "offsetY": -3,
                             "predicate": {
                                 "block": {
                                     "blocks": [
@@ -62,7 +61,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:location_check",
-                            "offsetX": -4,
+                            "offsetY": -4,
                             "predicate": {
                                 "block": {
                                     "blocks": [
@@ -76,7 +75,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:location_check",
-                            "offsetX": -5,
+                            "offsetY": -5,
                             "predicate": {
                                 "block": {
                                     "blocks": [
