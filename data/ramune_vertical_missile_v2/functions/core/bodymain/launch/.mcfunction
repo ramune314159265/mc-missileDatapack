@@ -1,4 +1,4 @@
-execute if predicate ramune_vertical_missile_v2:near_ground run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0.5 0 0.5 0.3 5 force
+function ramune_vertical_missile_v2:core/bodymain/launch/lanchingparticle
 
 execute if score @s r_vmissile2_missileTick matches 1..80 run function ramune_vertical_missile_v2:core/bodymain/launch/speed1
 execute if score @s r_vmissile2_missileTick matches 81..150 run function ramune_vertical_missile_v2:core/bodymain/launch/speed2
