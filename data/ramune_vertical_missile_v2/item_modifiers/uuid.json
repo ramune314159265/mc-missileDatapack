@@ -1,0 +1,9 @@
+{
+	"function": "set_name",
+	"entity": "this",
+	"name": {
+		"nbt": "arg",
+		"storage": "r_vmissile2:",
+		"interpret": true
+	}
+}
