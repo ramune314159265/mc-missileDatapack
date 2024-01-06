@@ -1,1 +1,1 @@
-particle minecraft:cloud ~ ~ ~ 2 3 2 0.2 5 force
+particle minecraft:dust 1 1 1 10 ~ ~ ~ 1.5 2 1.5 0.3 12 force

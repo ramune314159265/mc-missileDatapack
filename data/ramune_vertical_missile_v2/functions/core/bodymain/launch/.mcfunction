@@ -1,5 +1,5 @@
 execute if score @s r_vmissile2_missileTick matches 1..700 run function ramune_vertical_missile_v2:core/bodymain/launch/particles/lanching
-execute if score @s r_vmissile2_missileTick matches 700.. run function ramune_vertical_missile_v2:core/bodymain/launch/particles/falling
+execute if score @s r_vmissile2_missileTick matches 740.. run function ramune_vertical_missile_v2:core/bodymain/launch/particles/falling
 
 execute if score @s r_vmissile2_missileTick matches 1..80 run function ramune_vertical_missile_v2:core/bodymain/launch/speed1
 execute if score @s r_vmissile2_missileTick matches 81..150 run function ramune_vertical_missile_v2:core/bodymain/launch/speed2
