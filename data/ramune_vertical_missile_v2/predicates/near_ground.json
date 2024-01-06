@@ -71,6 +71,20 @@
                                 }
                             }
                         }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "offsetX": -5,
+                            "predicate": {
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:air"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }
