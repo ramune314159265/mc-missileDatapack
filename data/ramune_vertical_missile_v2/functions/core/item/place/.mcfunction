@@ -1,3 +1,0 @@
-execute anchored eyes positioned ^ ^ ^4 unless entity @e[distance=..2,type=!#ramune_vertical_missile_v2:stalic_entities,limit=1,sort=nearest,tag=!missile_targeted] at @s align xyz run return run function ramune_vertical_missile_v2:core/item/place/notargeted
-
-execute anchored eyes positioned ^ ^ ^4 as @e[distance=..2,type=!#ramune_vertical_missile_v2:stalic_entities,limit=1,sort=nearest,tag=!missile_targeted] at @s run function ramune_vertical_missile_v2:core/item/place/targeted
