@@ -1,4 +1,4 @@
-execute as @a[predicate=ramune_vertical_missile_v2:missilemain_clicked] at @s run function ramune_vertical_missile_v2:core/bodymain/items/place/
+execute as @a[predicate=ramune_vertical_missile_v2:missilemain_clicked] at @s run function ramune_vertical_missile_v2:core/bodymain/item/click/
 execute as @a[predicate=ramune_vertical_missile_v2:has_missilemain] at @s run function ramune_vertical_missile_v2:core/bodymain/items/hold/
 execute as @a[predicate=ramune_vertical_missile_v2:receiver_clicked] at @s run function ramune_vertical_missile_v2:core/receiver/
 
