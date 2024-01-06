@@ -1,0 +1,1 @@
+execute if predicate ramune_vertical_missile_v2:near_ground run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0.5 0 0.5 0.3 10 force
