@@ -1,5 +1,5 @@
 scoreboard players operation @s r_vmissile2_calc = @s r_vmissile2_missileTick
-scoreboard players operation @s r_vmissile2_calc /= @s r_vmissile2_define
+scoreboard players operation @s r_vmissile2_calc /= @s r_vmissile2_acceleration
 
 summon minecraft:marker ~ ~ ~ {Tags:["missile_tp_tmp"]}
 
