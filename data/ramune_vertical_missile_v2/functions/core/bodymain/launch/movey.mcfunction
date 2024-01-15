@@ -1,8 +1,11 @@
+#代入
 scoreboard players operation @s r_vmissile2_calc = @s r_vmissile2_missileTick
+#加速の度合いで割る
 scoreboard players operation @s r_vmissile2_calc /= @s r_vmissile2_acceleration
 #切り上げ
 scoreboard players add @s r_vmissile2_calc 1
 
+#TP先のマーカー
 summon minecraft:marker ~ ~ ~ {Tags:["missile_tp_tmp"]}
 
 execute if score @s r_vmissile2_calc matches 128.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~0.32 ~
@@ -22,6 +25,8 @@ execute if score @s r_vmissile2_calc matches 2.. run scoreboard players remove @
 execute if score @s r_vmissile2_calc matches 1.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~0.025 ~
 execute if score @s r_vmissile2_calc matches 1.. run scoreboard players remove @s r_vmissile2_calc 1
 
+#マーカー場所にTP
 tp @s @e[tag=missile_tp_tmp,limit=1,sort=nearest]
 
+#マーカー消す
 kill @e[tag=missile_tp_tmp,limit=1,sort=nearest]

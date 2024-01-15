@@ -1,3 +1,5 @@
+#モクモクのパーティクル
 particle minecraft:dust 1 1 1 10 ~ ~ ~ 1.5 2 1.5 0.3 12 force
 
+#下が空気じゃなかったら爆発
 execute unless block ~ ~-2 ~ #ramune_vertical_missile_v2:air run function ramune_vertical_missile_v2:core/bodymain/explosion/
