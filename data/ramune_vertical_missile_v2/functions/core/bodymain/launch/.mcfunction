@@ -3,8 +3,5 @@ execute if score @s r_vmissile2_missileTick matches 1..600 run function ramune_v
 execute if score @s r_vmissile2_missileTick matches 600 run function ramune_vertical_missile_v2:core/bodymain/launch/state/top
 execute if score @s r_vmissile2_missileTick matches 640.. run function ramune_vertical_missile_v2:core/bodymain/launch/state/falling
 
-#上に飛ばす
-function ramune_vertical_missile_v2:core/bodymain/launch/movey
-
 #tickを進める
 scoreboard players add @s r_vmissile2_missileTick 1
