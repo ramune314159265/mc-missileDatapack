@@ -8,9 +8,9 @@ scoreboard players add @s r_vmissile2_calc 1
 #TP先のマーカー
 summon minecraft:marker ~ ~ ~ {Tags:["missile_tp_tmp"]}
 
-execute if score @s r_vmissile2_calc matches 128.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~0.32 ~
+execute if score @s r_vmissile2_calc matches 128.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~3.2 ~
 execute if score @s r_vmissile2_calc matches 128.. run scoreboard players remove @s r_vmissile2_calc 128
-execute if score @s r_vmissile2_calc matches 64.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~0.16 ~
+execute if score @s r_vmissile2_calc matches 64.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~1.6 ~
 execute if score @s r_vmissile2_calc matches 64.. run scoreboard players remove @s r_vmissile2_calc 64
 execute if score @s r_vmissile2_calc matches 32.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~0.8 ~
 execute if score @s r_vmissile2_calc matches 32.. run scoreboard players remove @s r_vmissile2_calc 32
