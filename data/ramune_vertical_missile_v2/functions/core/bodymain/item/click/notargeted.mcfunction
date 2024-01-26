@@ -3,6 +3,6 @@ summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:carrot_on_a_stick",Coun
 
 #各種スコアセット
 scoreboard players set @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest] r_vmissile2_missileTick 0
-scoreboard players set @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest] r_vmissile2_acceleration 10
+scoreboard players set @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest] r_vmissile2_acceleration 2
 #tmp削除
 tag @e[tag=target_tmp] remove target_tmp
