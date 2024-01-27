@@ -14,7 +14,7 @@ scoreboard players set #3 r_vmissile2_define 3
 scoreboard players set #4 r_vmissile2_define 4
 scoreboard players set #5 r_vmissile2_define 5
 scoreboard players set #10 r_vmissile2_define 10
-scoreboard players set tick r_vmissile2_define 20
+scoreboard players set #tick r_vmissile2_define 20
 scoreboard players set #50 r_vmissile2_define 50
 scoreboard players set #100 r_vmissile2_define 100
 
