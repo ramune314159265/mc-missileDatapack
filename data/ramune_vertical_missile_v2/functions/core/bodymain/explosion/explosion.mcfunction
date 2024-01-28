@@ -1,6 +1,6 @@
 #爆発用パーティクル
 particle minecraft:explosion_emitter ~ ~ ~ 20 3 20 0 200 force
-particle minecraft:campfire_signal_smoke ~ ~ ~ 10 0 10 0.7 1500 force
+particle minecraft:campfire_signal_smoke ~ ~ ~ 10 0 10 0.7 2000 force
 
 #半径100マスのエンティティにダメージ
 execute as @a[gamemode=!creative,gamemode=!spectator,distance=1..100] run damage @s 1024 ramune_vertical_missile_v2:missile_blast
