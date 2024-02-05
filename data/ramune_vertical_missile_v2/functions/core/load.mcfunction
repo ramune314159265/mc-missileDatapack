@@ -21,5 +21,6 @@ scoreboard players set #100 r_vmissile2_define 100
 scoreboard objectives add r_vmissile2_variable dummy
 scoreboard players set missile_ready_count r_vmissile2_variable 0
 scoreboard players set missile_flying_count r_vmissile2_variable 0
+scoreboard players set missile_total_count r_vmissile2_variable 0
 
 tellraw @a [{"text":"垂直式ミサイルデータパック(v2)が読み込まれました","color":"gold"}]
