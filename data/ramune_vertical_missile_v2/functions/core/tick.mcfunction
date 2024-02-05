@@ -11,8 +11,8 @@ execute as @e[tag=missile_targeted] at @s run ride @s mount @e[limit=1,sort=near
 execute as @e[tag=missile_launched] at @s run function ramune_vertical_missile_v2:core/bodymain/launch/
 
 #変数リセット
-execute as @e[tag=missile_ready] run scoreboard players set missile_ready_count r_vmissile2_variable 0
-execute as @e[tag=missile_launched] run scoreboard players set missile_flying_count r_vmissile2_variable 0
+scoreboard players set missile_ready_count r_vmissile2_variable 0
+scoreboard players set missile_flying_count r_vmissile2_variable 0
 
 #変数設定
 execute as @e[tag=missile_ready] run scoreboard players add missile_ready_count r_vmissile2_variable 1
