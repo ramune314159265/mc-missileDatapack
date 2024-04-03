@@ -1,29 +1,29 @@
 {
-    "function": "minecraft:set_name",
-    "entity": "this",
-    "name": [
-        {
-            "text": "ミサイル発射ボタン",
-            "color": "red",
-            "italic": false
-        },
-        {
-            "text": " | ",
-            "color": "gray",
-            "italic": false
-        },
-        {
-            "score": {
-                "name": "missile_ready_count",
-                "objective": "r_vmissile2_variable"
-            },
-            "color": "green",
-            "italic": false
-        },
-        {
-            "text": " 発のミサイルを発射可能",
-            "color": "green",
-            "italic": false
-        }
-    ]
+	"function": "minecraft:set_name",
+	"entity": "this",
+	"name": [
+		{
+			"text": "ミサイル発射ボタン",
+			"color": "red",
+			"italic": false
+		},
+		{
+			"text": " | ",
+			"color": "gray",
+			"italic": false
+		},
+		{
+			"score": {
+				"name": "missile_ready_count",
+				"objective": "r_vmissile2_variable"
+			},
+			"color": "green",
+			"italic": false
+		},
+		{
+			"text": " 発のミサイルを発射可能",
+			"color": "green",
+			"italic": false
+		}
+	]
 }

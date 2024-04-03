@@ -1,7 +1,7 @@
 {
-    "message_id": "missile_blast",
-    "exhaustion": 3,
-    "scaling": "never",
-    "effects": "hurt",
-    "death_message_type": "default"
+	"message_id": "missile_blast",
+	"exhaustion": 3,
+	"scaling": "never",
+	"effects": "hurt",
+	"death_message_type": "default"
 }
