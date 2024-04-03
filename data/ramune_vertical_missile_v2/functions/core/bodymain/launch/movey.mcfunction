@@ -1,4 +1,4 @@
-#加速度の計算
+# 加速度の計算
     # 代入
         scoreboard players operation @s r_vmissile2_calc = @s r_vmissile2_missileTick
     # 加速の度合いで割る
@@ -8,6 +8,8 @@
 
 # TP先のマーカー
     summon minecraft:marker ~ ~ ~ {Tags:["missile_tp_tmp"]}
+    # 向きをそろえる
+        execute rotated as @s run tp @e[tag=missile_tp_tmp,limit=1,sort=nearest] ~ ~ ~ ~ 0
 
 # マーカーをスコア値分移動
     execute if score @s r_vmissile2_calc matches 128.. as @e[tag=missile_tp_tmp,limit=1,sort=nearest] at @s run tp ~ ~6.4 ~

@@ -9,7 +9,7 @@
     scoreboard players set @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest] r_vmissile2_acceleration 4
 
 # 位置向き調整
-    execute rotated as @s run tp @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest] ~ ~1.3 ~ ~180 0
+    execute rotated as @s run tp @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest] ~ ~1.3 ~ ~ 0
 
 # tmp削除
     tag @e[tag=target_tmp] remove target_tmp
