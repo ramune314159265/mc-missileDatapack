@@ -9,5 +9,5 @@
     execute if score @s r_vmissile2_calc matches 0 run function ramune_vertical_missile_v2:core/bodymain/launch/movey
 
 # パーティクル
-    particle minecraft:lava ~ ~-2 ~ 0 0 0 0 2 force
-    particle minecraft:campfire_cosy_smoke ~ ~-2 ~ 0.2 1 0.2 0.05 3 force
+    particle minecraft:lava ~ ~-4 ~ 0 0 0 0 2 force
+    particle minecraft:campfire_cosy_smoke ~ ~-4 ~ 0.2 1 0.2 0.05 3 force
