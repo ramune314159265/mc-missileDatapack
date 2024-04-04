@@ -3,9 +3,9 @@
 # 上に空気以外があったら爆発
 	execute unless block ~ ~5 ~ #ramune_vertical_missile_v2:air run function ramune_vertical_missile_v2:core/bodymain/explosion/
 
-# 上に飛ばす(ガクガク防止のため4tickごとの処理)
+# 上に飛ばす(2tickごとの処理)
 	scoreboard players operation @s r_vmissile2_calc = @s r_vmissile2_missileTick
-	scoreboard players operation @s r_vmissile2_calc %= #4 r_vmissile2_define
+	scoreboard players operation @s r_vmissile2_calc %= #2 r_vmissile2_define
 	execute if score @s r_vmissile2_calc matches 0 run function ramune_vertical_missile_v2:core/bodymain/launch/movey
 
 # パーティクル
