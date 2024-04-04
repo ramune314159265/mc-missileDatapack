@@ -1,5 +1,8 @@
 # 爆発エフェクト
 	particle minecraft:explosion_emitter ~ ~ ~ 4 4 4 0 10 force
+# 爆発音
+	playsound minecraft:entity.generic.explode master @a ~ ~ ~ 32
+	playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 32
 
 # ひっくり返す
 	data modify entity @s interpolation_duration set value 80

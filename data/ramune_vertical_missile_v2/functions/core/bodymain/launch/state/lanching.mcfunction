@@ -11,3 +11,6 @@
 # パーティクル
     particle minecraft:lava ~ ~-2 ~ 0 0 0 0 2 force
     particle minecraft:campfire_cosy_smoke ~ ~-4 ~ 0.2 1 0.2 0.05 3 force
+
+# 音
+	playsound minecraft:entity.ghast.shoot master @a ~ ~ ~ 0.2 0.7

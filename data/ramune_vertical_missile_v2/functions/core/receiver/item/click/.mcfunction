@@ -1,3 +1,6 @@
+# ボタン音
+	playsound minecraft:ui.button.click master @a ~ ~ ~ 0.5 1
+
 # ミサイルがないときのメッセージ
 	execute unless entity @e[tag=missile_ready] run return run tellraw @s {"text":"打ち上げれるミサイルがありませんでした","color":"red","bold":false,"italic":false}
 
