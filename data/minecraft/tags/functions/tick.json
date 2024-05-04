@@ -1,5 +1,5 @@
 {
     "values": [
-        "ramune_vertical_missile_v2:core/tick"
+        "ramune_missile:core/tick"
     ]
 }

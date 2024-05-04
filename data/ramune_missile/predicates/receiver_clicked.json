@@ -1,0 +1,24 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"type": "minecraft:player",
+			"equipment": {
+				"mainhand": {
+					"items": [
+						"minecraft:carrot_on_a_stick"
+					],
+					"nbt": "{CustomModelData:31402}"
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:entity_scores",
+		"entity": "this",
+		"scores": {
+			"r_missile_rightClick": 1
+		}
+	}
+]
