@@ -24,4 +24,4 @@
 	scoreboard players set missile_total_count r_missile_variable 0
 
 # 導入メッセージ
-	tellraw @a [{"text":"垂直式ミサイルデータパック(v2)が読み込まれました","color":"gold"}]
+	tellraw @a [{"text":"ミサイルデータパックが読み込まれました","color":"gold"}]

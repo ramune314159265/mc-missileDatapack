@@ -8,7 +8,9 @@
 				"items": [
 					"minecraft:carrot_on_a_stick"
 				],
-				"nbt": "{CustomModelData:31401}"
+				"components": {
+					"minecraft:custom_model_data": 31401
+				}
 			}
 		}
 	}

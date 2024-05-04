@@ -1,5 +1,5 @@
 # ミサイル本体
-    summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:31401}},transformation:{right_rotation:[0f,0f,0f,1f],scale:[2.2f,2.2f,2.2f],left_rotation:[0f,0f,0f,1f],translation:[0f,-0.2f,0f]},Tags:["missile_main","missile_ready","target_tmp","has_target"]}
+    summon minecraft:item_display ~ ~ ~ {item:{id:"minecraft:carrot_on_a_stick",count:1b,components:{"minecraft:custom_model_data": 31401}},transformation:{right_rotation:[0f,0f,0f,1f],scale:[2.2f,2.2f,2.2f],left_rotation:[0f,0f,0f,1f],translation:[0f,-0.2f,0f]},Tags:["missile_main","missile_ready","target_tmp","has_target"]}
 
 # ターゲットをミサイルに乗せる
 	ride @s mount @e[limit=1,tag=missile_main,tag=target_tmp,sort=nearest]
