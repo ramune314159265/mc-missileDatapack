@@ -6,6 +6,6 @@
 
 # ターゲットが存在するかで分岐
 	# ターゲットがいない時
-		execute anchored eyes positioned ^ ^ ^4 unless entity @e[distance=..2,type=!#ramune_missile:stalic_entities,limit=1,sort=nearest,tag=!missile_targeted] at @s align xz positioned ~0.5 ~ ~0.5 run return run function ramune_missile:core/vertical_missile/item/click/notargeted
+		execute anchored eyes positioned ^ ^ ^4 unless entity @n[distance=..2,type=!#ramune_missile:stalic_entities,tag=!missile_targeted] at @s align xz positioned ~0.5 ~ ~0.5 run return run function ramune_missile:core/vertical_missile/item/click/notargeted
 	# ターゲットがいるとき
-		execute anchored eyes positioned ^ ^ ^4 as @e[distance=..2,type=!#ramune_missile:stalic_entities,limit=1,sort=nearest,tag=!missile_targeted] at @s run function ramune_missile:core/vertical_missile/item/click/targeted
+		execute anchored eyes positioned ^ ^ ^4 as @n[distance=..2,type=!#ramune_missile:stalic_entities,tag=!missile_targeted] at @s run function ramune_missile:core/vertical_missile/item/click/targeted

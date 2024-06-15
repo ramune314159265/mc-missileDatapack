@@ -5,7 +5,7 @@
 	execute as @a[predicate=ramune_missile:has_receiver] at @s run function ramune_missile:core/receiver/item/hold/
 
 # ターゲットされたエンティティをミサイルに固定
-	execute as @e[tag=missile_targeted] at @s run ride @s mount @e[limit=1,sort=nearest,type=item_display,tag=has_target,predicate=!ramune_missile:has_passenger]
+	execute as @e[tag=missile_targeted] at @s run ride @s mount @n[type=item_display,tag=has_target,predicate=!ramune_missile:has_passenger]
 
 # ミサイル打ち上げ関連
 	execute as @e[tag=missile_launched] at @s run function ramune_missile:core/vertical_missile/launch/
